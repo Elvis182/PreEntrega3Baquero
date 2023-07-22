@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px;
+}
+
+.large {
+  font-size: 18px;
+}
+
+.display-1 {
+  font-size: 6rem;
+}
+
+#navbar {
+  height: 30vh;
+  background: #8f2344;
+  color: #fff;
+  overflow: auto;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+#navbar a {
+  color: #fff;
+}
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#showcase {
+  height: 90vh;
+  padding: 120px 0;
+  background: url("/imagenes/galeria 11.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+#showcase h1 {
+  width: 100%;
+}
+#showcase p {
+  width: 100%;
+  padding: 20px 0;
+  color: #f9f9f9;
+}
+
+#biografia {
+  padding: 100px 0;
+}
+#biografia h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+#biografia img {
+  width: 100%;
+}
+#biografia .biografia-flex {
+  display: flex;
+}
+#biografia .biografia-flex-image {
+  flex: 1;
+}
+#biografia .biografia-flex-description {
+  flex: 1;
+  padding: 20px 40px;
+}
+
+#services {
+  padding: 100px 0;
+  background: #f9f9f9;
+}
+#services h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+#services p.large {
+  text-align: center;
+  padding-bottom: 50px;
+}
+#services .biografia-flex {
+  display: flex;
+  gap: 10px;
+}
+#services .biografia-flex img {
+  height: 40px;
+}
+#services .biografia-flex-box {
+  background: #a00b0b;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+#services .biografia-flex-box h4 {
+  padding: 10px 0;
+}
+
+
+/*# sourceMappingURL=stayle.css.map */
